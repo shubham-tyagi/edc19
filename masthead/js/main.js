@@ -46,7 +46,7 @@ jQuery(document).ready(function(){
 	})
 
 	$('.scroll-link').click(function(){
-		$('html, body').animate({ scrollTop: $('.about').offset().top}, 1500)
+		$('html, body').animate({ scrollTop: $('.about').offset().top}, 750)
 	})
 
 	$('.author').click(function(){
