@@ -835,13 +835,9 @@ keyframes
   
   .hero{
     background: url('../img/bg.jpg') center center no-repeat;
+    padding: 250px 0 250px 0;
     background-attachment: fixed;
     background-size: cover;
-  }
-
-  .hero-content{
-    background: rgba(0, 0, 0, 0.55);
-    padding: 200px 0 350px 0;
   }
 
   .hero-icon{
@@ -989,6 +985,14 @@ keyframes
   font-family: 'Product Sans', sans-serif;
   font-size: 36px;
   color: #13171c;
+}
+
+.wwa-line{
+  width: 250px;
+  height: 2px;
+  border: 0;
+  outline: none;
+  background: #13171c;
 }
 
 .about-icons{

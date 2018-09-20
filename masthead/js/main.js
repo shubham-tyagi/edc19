@@ -26,12 +26,16 @@ jQuery(document).ready(function(){
 
 	$(window).resize(function(){
 		var wid=$('.portfolio-img').width();
-		$('.details').css('width', ''+wid+'')
+		$('.details').css('width', ''+wid+'');
+    var htemp=$(window).innerHeight();
+    $('.hero').css('height', ''+htemp+'');
 	})
 
 	$(window).load(function(){
 		var wid=$('.portfolio-img').width();
-		$('.details').css('width', ''+wid+'')
+		$('.details').css('width', ''+wid+'');
+    var htemp=$(window).innerHeight();
+    $('.hero').css('height', ''+htemp+'');
 	})
 
 	$('.box1').hover(function(){
