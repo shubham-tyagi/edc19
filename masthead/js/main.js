@@ -39,11 +39,32 @@ jQuery(document).ready(function(){
 	})
 
 	$('.box1').hover(function(){
-		setTimeout(function(){
-			$('.box1 .stuff').toggleClass('show')
-			$('.box1 .img-init').toggleClass('img-init-active')
-		}, 500)
-	})
+    setTimeout(function(){
+      $('.box1 .stuff').toggleClass('show')
+      $('.box1 .img-init').toggleClass('img-init-active')
+    }, 500)
+  })
+
+  $('.box2').hover(function(){
+    setTimeout(function(){
+      $('.box2 .stuff').toggleClass('show')
+      $('.box2 .img-init').toggleClass('img-init-active')
+    }, 500)
+  })
+
+  $('.box3').hover(function(){
+    setTimeout(function(){
+      $('.box3 .stuff').toggleClass('show')
+      $('.box3 .img-init').toggleClass('img-init-active')
+    }, 500)
+  })
+
+  $('.box4').hover(function(){
+    setTimeout(function(){
+      $('.box4 .stuff').toggleClass('show')
+      $('.box4 .img-init').toggleClass('img-init-active')
+    }, 500)
+  })
 
 	$('.scroll-link').click(function(){
 		$('html, body').animate({ scrollTop: $('.about').offset().top}, 750)

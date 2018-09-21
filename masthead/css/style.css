@@ -969,6 +969,7 @@ keyframes
   }
 
   .scroll-link i{
+    cursor: pointer;
     font-size: 36px;
   }
 
@@ -1018,6 +1019,24 @@ keyframes
 .testifier-words{
   font-family: 'Product Sans', sans-serif;
   font-size: 18px;
+}
+
+.mob-testimonials{
+  display: none;
+}
+
+@media(max-width: 992px){
+  .mob-testimonials{
+    display: block;
+    background: url('../img/pen.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+  }
+
+  .testimonials{
+    display: none;
+  }
 }
 
 /* About Section */
