@@ -1351,3 +1351,19 @@ a:focus, a:hover, a:active {
 .cright{
   font-size: 28px;
 }
+
+@media(max-width: 992px){
+  .about-title, .init-title, .testimonials-title, .section-title, .contact-title 
+ { font-size: 28px }
+ .wwa-line
+ { width: 180px }
+  
+ }
+ 
+ @media (max-width: 768px ){
+   .about-title, .init-title, .testimonials-title, .section-title, .contact-title 
+ { font-size: 22px }
+ .wwa-line
+ { width: 150px }
+
+ }
